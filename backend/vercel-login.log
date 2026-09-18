@@ -1,0 +1,27 @@
+<claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+Vercel CLI 59.23.1 (Node.js 26.4.0)
+> NOTE: The Vercel CLI now collects telemetry regarding usage of the CLI.
+> This information is used to shape the CLI roadmap and prioritize features.
+> You can learn more, including how to opt-out if you'd not like to participate in this program, by visiting the following URL:
+> https://vercel.com/docs/cli/about-telemetry
+Error: Worker timed out after 10 seconds
+> Failed to spawn get latest worker: Error: write EPIPE
+    at target._send (node:internal/child_process:901:20)
+    at target.send (node:internal/child_process:776:19)
+    at ChildProcess.<anonymous> (file:///C:/Users/Admin/AppData/Local/npm-cache/_npx/69f9afb961c37556/node_modules/vercel/dist/index.js:7:8046)
+    at Object.onceWrapper (node:events:631:12)
+    at ChildProcess.emit (node:events:509:20)
+    at emit (node:internal/child_process:973:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+> 
+  Visit https://vercel.com/oauth/device?user_code=XTNM-GTJQ
+
+Waiting for authentication...
+[2K[1A[2K[G
+  Congratulations! You are now signed in.
+
+  To deploy something, run `vercel`.
+  To set up the Vercel plugin and connect your coding agents to the AI Gateway, run `vercel setup`.
+
+  💡 To deploy every commit automatically,
+  connect a Git Repository (vercel.link/git (https://vercel.link/git)).

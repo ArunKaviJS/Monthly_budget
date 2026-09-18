@@ -1,0 +1,18 @@
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+
+
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials nKhbAT_QiG (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+- Uploading to EAS Build (0 / 275 KB)
+✔ Uploaded to EAS 1s
+- Computing project fingerprint
+✔ Computed project fingerprint
+
+See logs: https://expo.dev/accounts/arunkavijs/projects/monthly-budget/builds/4bd6910e-683e-4355-8b25-5c40a07831f8
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+- Waiting for build to complete.

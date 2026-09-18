@@ -1,0 +1,67 @@
+<claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+Vercel CLI 59.23.2 (Node.js 26.4.0)
+Deploying backend
+Uploading [--------------------] (0.0B/38.9KB)
+Uploading [======--------------] (11.9KB/38.9KB)
+Uploading [==============------] (27.9KB/38.9KB)
+Uploading [===============-----] (30.7KB/38.9KB)
+Uploading [====================] (38.9KB/38.9KB)
+  Inspect         https://vercel.com/budget-85d0/backend/ARMN6QVTu5HDD4jy6FHTrNjHuVtY
+  Production      https://backend-cjztegma5-budget-85d0.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Downloading 26 deployment files...
+Restored build cache from previous deployment (8yE9Qx4TRUMFfZiRy5g6WgNmFKA8)
+Running "vercel build"
+Vercel CLI 59.23.2
+WARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+WARNING! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+No Python version specified in .python-version, pyproject.toml, or Pipfile.lock. Using python version: 3.12
+Using uv 0.10.11
+Installing required dependencies from requirements.txt...
+Compiling Python bytecode...
+Build Completed in /vercel/output [3s]
+Deploying outputs...
+Deployment completed
+Creating build cache...
+Created build cache: 1s
+Uploading build cache [16.95 MB]
+Build cache uploaded: 254.000ms
+[2K[1A[2K[G  Production      https://backend-cjztegma5-budget-85d0.vercel.app
+Completing…
+▲ Aliased         https://backend-ten-chi-67.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_ARMN6QVTu5HDD4jy6FHTrNjHuVtY",
+    "url": "https://backend-cjztegma5-budget-85d0.vercel.app",
+    "inspectorUrl": "https://vercel.com/budget-85d0/backend/ARMN6QVTu5HDD4jy6FHTrNjHuVtY",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_ARMN6QVTu5HDD4jy6FHTrNjHuVtY",
+    "buildMachine": {
+      "cores": 2,
+      "memory": 8192,
+      "machine": "basic",
+      "selectionType": "fixed",
+      "selectionSource": "plan-default"
+    }
+  },
+  "message": "Deployment backend-cjztegma5-budget-85d0.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel curl https://backend-cjztegma5-budget-85d0.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect backend-cjztegma5-budget-85d0.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

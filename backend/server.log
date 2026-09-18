@@ -1,0 +1,72 @@
+INFO:     Started server process [8548]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54257 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54261 - "GET /api/debts HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.13:64319 - "OPTIONS /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.13:64319 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.13:54132 - "OPTIONS /api/auth/signup HTTP/1.1" 200 OK
+INFO:     192.168.1.13:54132 - "POST /api/auth/signup HTTP/1.1" 201 Created
+INFO:     192.168.1.13:54132 - "OPTIONS /api/books HTTP/1.1" 200 OK
+INFO:     192.168.1.13:54132 - "POST /api/books HTTP/1.1" 201 Created
+INFO:     192.168.1.13:62935 - "OPTIONS /api/auth/refresh HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61069 - "OPTIONS /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.13:62935 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61069 - "POST /api/auth/refresh HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61069 - "OPTIONS /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61069 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.13:62935 - "OPTIONS /api/expenses?book_id=1&limit=1000 HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61069 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61069 - "GET /api/expenses?book_id=1&limit=1000 HTTP/1.1" 200 OK
+INFO:     192.168.1.13:49671 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61213 - "POST /api/auth/refresh HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61213 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.13:61213 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.13:49671 - "GET /api/expenses?book_id=1&limit=1000 HTTP/1.1" 200 OK
+INFO:     192.168.1.13:51417 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.13:51417 - "OPTIONS /api/debts?book_id=1 HTTP/1.1" 200 OK
+INFO:     192.168.1.13:51417 - "GET /api/debts?book_id=1 HTTP/1.1" 200 OK
+INFO:     192.168.1.13:60348 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     192.168.1.13:62920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     192.168.1.6:40250 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:44244 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.6:34908 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.6:50766 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.6:50766 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.6:49984 - "POST /api/auth/signup HTTP/1.1" 201 Created
+INFO:     192.168.1.6:49984 - "GET /api/books/active HTTP/1.1" 404 Not Found
+INFO:     192.168.1.6:49984 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:49984 - "POST /api/books HTTP/1.1" 201 Created
+INFO:     192.168.1.6:49984 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37512 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:49984 - "GET /api/expenses?book_id=2&limit=1000 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:49984 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:49984 - "GET /api/debts?book_id=2 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:58958 - "POST /api/debts HTTP/1.1" 201 Created
+INFO:     192.168.1.6:58958 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:58958 - "GET /api/debts?book_id=2 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37172 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37172 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37178 - "GET /api/expenses?book_id=2&limit=1000 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37172 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37172 - "GET /api/debts?book_id=2 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37172 - "PATCH /api/debts/1 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37172 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:37172 - "GET /api/debts?book_id=2 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45246 - "GET /api/expenses?book_id=2&limit=1000 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "GET /api/debts?book_id=2 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "DELETE /api/debts/1 HTTP/1.1" 204 No Content
+INFO:     192.168.1.6:45236 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "GET /api/debts?book_id=2 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:45236 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:48802 - "GET /api/expenses?book_id=2&limit=1000 HTTP/1.1" 200 OK
+INFO:     192.168.1.6:47700 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:47700 - "POST /api/auth/refresh HTTP/1.1" 200 OK
+INFO:     192.168.1.6:47700 - "GET /api/books/active HTTP/1.1" 200 OK
+INFO:     192.168.1.6:47700 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     192.168.1.6:47710 - "GET /api/expenses?book_id=2&limit=1000 HTTP/1.1" 200 OK

@@ -1,0 +1,18 @@
+backend:
+  code_index: backend/.context/code-index.md
+  path: backend/
+  entry: backend/api/index.py        # Vercel serverless entry, re-exports app.main:app
+  http_prefix: /api
+  deployed_url: https://backend-ten-chi-67.vercel.app
+
+mobile:
+  code_index: mobile/.context/code-index.md
+  path: mobile/
+  entry: mobile/index.ts             # expo-router/entry
+  expo_slug: monthly-budget
+  android_package: com.monthlybudget.app
+  url_scheme: monthly-budget
+
+root_context:
+  business: .context/business/index.md
+  technical: .context/technical/index.md
